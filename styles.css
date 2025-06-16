@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(Background2.png);
+  font-family: Arial, sans-serif;
+  color: white;
+  min-height: 100%;
+}
+
+/*navigacijski meni*/
+
+.navbar {
+  display: flex;
+  justify-content: right;
+  background-color: #222;
+  padding: 15px 0;
+  width: 100%;
+}
+
+
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  padding: 12px 25px;
+  background-color: #444;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #727272;
+}
+
+
+/*glavni del*/
+
+.main-content {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.main-content h1 {
+  font-size: 36px;
+}
+
+.main-content p {
+  font-size: 18px;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.buttons button {
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+  background-color: #666;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: bottom;
+  bottom: 0;
+  width: 100%;
+}
+.predjed {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.galerija-item {
+  background-color:#333;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  padding: 15px;
+  grid-template-columns: repeat(3,1fr);
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+/*kvadrati*/
+.menu-item {
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  padding: 15px;
+}
+
+.menu-item img {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #ddd;
+}
+
+.menu-item h3 {
+  margin: 15px 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.menu-item p {
+    font-size: 16px;
+    color: #666;
+    padding: 0 10px;
+}
+
+.menu-item img:hover {
+  transform: scale(1.1)
+}
+
+/*sestavine*/
+
+.sestavine-item {
+  background-color:#333;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: left;
+  padding: 15px;
+}
+
+.sestavine-item p {
+    font-size: 18px;
+    color: #d1d1d1;
+    padding: 0 10px;
+}
+
+/*glavna jed */
+
+.glavnajed {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*O nas*/
+
+
+.Onas-item p {
+    font-size: 18px;
+    color: #fdfdfd;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.Onas-item b {
+    font-size: 18px;
+}
+
+.Onas-item {
+  background-color:#333;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  padding: 15px;
+}
+.Onas-item {
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*Povratne informacije*/
+
+
+form {
+  background: #24242424;
+  max-width: 500px;
+  
+  margin: 32px auto;
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 24px;
+  border: 3px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 3px, box-shadow 3px;
+}
+
+input:focus, textarea:focus {
+  border-color: #007BFF;
+  box-shadow: 0 0 5px rgba(0,123,255,0.5);
+  outline: none;
+}
+
+
+
+button {
+  padding: 12px 24px;
+  background-color: #797979;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 3px, transform 1px;
+}
+
+button:active {
+  background-color: #afafaf;
+  transform: scale(0.98);
+}
+
+button:hover {
+  background-color: #afafaf;
+}
+
