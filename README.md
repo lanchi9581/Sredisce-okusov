@@ -10,8 +10,8 @@ Spletna stran restavracije **Središče okusov**.
 
 ## Datoteke
 - `index.html` – glavna stran
-- `styles.css` – slogovna datoteka (ni priložena)
-- `script.js` – JS funkcije (ni priložen)
+- `styles.css` – slogovna datoteka
+- `script.js` – JS funkcije 
 
 ## Kontakt
  sredisce_okusov@gmail.com  
