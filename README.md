@@ -21,4 +21,4 @@ Odpri `index.html` v brskalniku za ogled strani.
 Projekt ustvarjen za učenje osnov spletnega razvoja in predstavitev kulinaričnega koncepta.
 
 - Repository: https://github.com/lanchi9581/Sredisce-okusov
-- Stran: 
+- Stran: https://lanchi9581.github.io/Sredisce-okusov/
