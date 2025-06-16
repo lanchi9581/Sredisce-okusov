@@ -1,18 +1,21 @@
 # Središče okusov
 
-Spletna stran restavracije **Središče okusov**.
+Preprosta spletna stran za predstavitev restavracije in njene kulinarične ponudbe.
 
-## Vsebina
--  Predstavitev restavracije
--  Meni z jedmi in sestavinami
--  Kontaktni obrazec
--  Interaktivni gumbi (JS funkcije)
+## Funkcionalnosti
+- Navigacijski meni: Domov, O nas, Meni, Kontakt
+- Predstavitev restavracije z besedilom in slikami
+- Jedilnik s predjedmi in glavnimi jedmi (opis + sestavine)
+- Kontaktni obrazec za povratne informacije
+- Gumbi za spremembo ozadja in prikaz sporočila (JS)
 
-## Datoteke
-- `index.html` – glavna stran
-- `styles.css` – slogovna datoteka
-- `script.js` – JS funkcije 
+## Struktura projekta
+- `index.html` – glavna stran z vsebino in menijem
+- `styles.css` – slogovna datoteka (ni priložena)
+- `script.js` – skripte za interakcijo (ni priložen)
 
-## Kontakt
- sredisce_okusov@gmail.com  
- +386 231 423 32
+## Začetek
+Odpri `index.html` v brskalniku za ogled strani.
+
+## Avtor
+Projekt ustvarjen za učenje osnov spletnega razvoja in predstavitev kulinaričnega koncepta.
